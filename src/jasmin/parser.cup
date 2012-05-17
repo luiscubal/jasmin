@@ -207,7 +207,6 @@ class_spec ::=
     DINTERFACE access:a classname:name SEP
         {: classFile.setClass(name.str_val,
                 (short)(a.int_val |
-                        RuntimeConstants.ACC_SUPER |
                         RuntimeConstants.ACC_INTERFACE)); :}
 ;
 

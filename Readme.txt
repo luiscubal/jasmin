@@ -8,6 +8,8 @@ The new version allows this:
 
 .field public static final lval J = 1l
 
+Additionally, interfaces are now correctly marked *without* ACC_SUPER, as required by the JVM spec.
+
 Aside from that, I've also changed the version number.
 
 The original Jasmin is property of Jon Meyer.

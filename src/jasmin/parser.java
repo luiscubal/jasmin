@@ -2634,7 +2634,6 @@ class CUP$actions {
               CUP$result = new symbol(/*class_spec*/13);
                classFile.setClass((/*name*/(str_token)CUP$stack.elementAt(CUP$top-1)).str_val,
                 (short)((/*a*/(int_token)CUP$stack.elementAt(CUP$top-2)).int_val |
-                        RuntimeConstants.ACC_SUPER |
                         RuntimeConstants.ACC_INTERFACE)); 
             }
           return CUP$result;
